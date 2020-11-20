@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+
+
+
+body, html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+
+.tb{
+    color: black;
+}
+
+.tw{
+    color: white;
+}
+
+.b-row{
+    background-color: black;
+}
+.w-row{
+    background-color: white;
+}
+
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.custom-navbar{
+    transition:500ms ease;
+    background-color: transparent;
+}
+.custom-navbar.scrolled{
+    background-color: black;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.btnMenu{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+.btnMenu:focus{
+	outline: none;
+}
+
+#hero-section{
+  background-image: url("/images/home-presepe.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbo-hero{
+    background-color: transparent;
+}
+
+.jumbo-wrapper{
+    margin-top: 50px;
+}
+
+#natale-section{
+    background-color: #fff;
+}
+
+.natale-text{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8em;
+    letter-spacing: -0.08em;
+    line-height: 1;
+    background-image: url("/images/luci.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.natale-subtext{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+#detail-work-section{
+    padding: 0;
+    background-color: #fff;
+}
+
+
+#type-section{
+    background-color: black;
+}
+
+.type-text{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8em;
+    letter-spacing: -0.08em;
+    line-height: 1;
+    background-image: url("/images/neve.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.type-subtext{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+.row-dim{
+    background-color: #fff;
+}
+
+.titoli-section{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -0.08em;
+    line-height: 1;
+}
+
+#about-work-section{
+    padding-bottom: 0;
+}
+
+#preworks-section{
+    background-color: #fff;
+}
+
+.preworks-text{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8em;
+    letter-spacing: -0.08em;
+    line-height: 1;
+    background-image: url("/images/albero2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.preworks-subtext{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+
+
+
+.genio-text{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8em;
+    letter-spacing: -0.08em;
+    line-height: 1;
+    background-image: url("/images/eug4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.wrapper-line{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vertical-row{
+    height: 125px;
+    width: 1px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#works-section{
+    padding: 40px;
+}
+
+.img-box {
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.img-w{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img-box:hover .img-w {
+    opacity: 0.3;
+}
+
+.img-box:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #ffffffa1;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.img-box:hover img {
+    transform: scale(1.1);
+}
+
+#aboutme-section{
+    background-color: #73150D;
+}
+
+#contacts-section{
+    background-color: #D95436;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 720px) {
+    .images-hidden {
+      display: none;
+    }
+}
+
+@media (min-width: 576px){
+    .jumbotron {
+        padding: 0rem 2rem;
+    }
+}

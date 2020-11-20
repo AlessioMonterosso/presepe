@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.custom-navbar{
+    background-color: transparent;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+#hero-section{
+  background-image: url("/images/casa-min2.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbo-hero{
+    background-color: transparent;
+}
+
+.jumbo-wrapper{
+    margin-top: 50px;
+}
+
+.genio-wrapper{
+}
+
+.row-genio{
+    height: 500px;
+}
+
+.genio-text{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8em;
+    letter-spacing: -0.08em;
+    line-height: 1;
+    background-image: url("/images/eug4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#works-section{
+    background-color: #0D0D0D;
+    padding: 40px;
+}
+
+#aboutme-section{
+    background-color: #73150D;
+}
+
+#contacts-section{
+    background-color: #D95436;
+}
+
