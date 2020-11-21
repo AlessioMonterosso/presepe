@@ -8,8 +8,6 @@ body, html {
 
 body{
     margin: 0;
-    background: black;
-    color: white;
     font-family: 'Montserrat';
 }
 
@@ -34,12 +32,13 @@ section{
     padding-bottom: 70px;
 }
 
-.custom-navbar{
+.custom-navbar.navbar-dark{
     transition:500ms ease;
-    background-color: transparent;
+	background-color: black;
 }
-.custom-navbar.scrolled{
-    background-color: black;
+.custom-navbar.navbar-light{
+	transition:500ms ease;
+    background-color: white;
 }
 
 .navbar-brand{
@@ -56,12 +55,7 @@ section{
 }
 
 #hero-section{
-  background-image: url("/images/home-presepe.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
 }
 
 .jumbo-hero{
@@ -84,7 +78,7 @@ section{
     font-size: 8em;
     letter-spacing: -0.08em;
     line-height: 1;
-    background-image: url("/images/luci.jpg");
+    background-image: url("../images/luci.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,7 +113,7 @@ section{
     font-size: 8em;
     letter-spacing: -0.08em;
     line-height: 1;
-    background-image: url("/images/neve.jpg");
+    background-image: url("../images/neve.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,7 +158,7 @@ section{
     font-size: 8em;
     letter-spacing: -0.08em;
     line-height: 1;
-    background-image: url("/images/albero2.jpg");
+    background-image: url("../images/albero2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,7 +186,7 @@ section{
     font-size: 8em;
     letter-spacing: -0.08em;
     line-height: 1;
-    background-image: url("/images/eug4.jpg");
+    background-image: url("../images/eug4.jpg");
     background-attachment: fixed;
     background-position: center;
 }
