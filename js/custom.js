@@ -1,9 +1,18 @@
 $( document ).ready(function() {
 
-    $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 300);
-    });
+	$(window).scroll(function() {    
+		var scroll = $(window).scrollTop();
 
+		if (scroll >= 500) {
+			$(".navbar").addClass("navbar-light");
+			$(".navbar").removeClass("navbar-dark");
+		} else {
+			$(".navbar").addClass("navbar-dark");
+			$(".navbar").removeClass("navbar-light");
+		}
+	});
+    
+	
     // ANIMAZIONE CLICK NAVBAR
     $(".hero-menu").click(function() {
         $('html, body').animate({
